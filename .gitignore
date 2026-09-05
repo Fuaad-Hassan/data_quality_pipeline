@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Data directories (ignore files, but keep directories)
+data/00_dropzone/*
+!data/00_dropzone/.gitkeep
+data/01_landing/*
+!data/01_landing/.gitkeep
+data/02_clean/*
+!data/02_clean/.gitkeep
+data/03_quarantine/*
+!data/03_quarantine/.gitkeep
+data/04_audit_reports/*
+!data/04_audit_reports/.gitkeep
+
+# Python virtual environment and cache
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+pipeline_execution.log
+
+ARCHITECTURE.md

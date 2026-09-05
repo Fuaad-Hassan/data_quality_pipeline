@@ -1,0 +1,13 @@
+dataset_target: demographic_metrics
+schema_rules:
+  location_identifier:
+    type: string
+    is_nullable: false
+  total_population:
+    type: integer
+    is_nullable: false
+    min_value: 0
+  median_household_income:
+    type: float
+    is_nullable: true
+    min_value: 0.0

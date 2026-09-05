@@ -1,0 +1,9 @@
+polars
+pyarrow
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+pyyaml
+seaborn
+matplotlib
+requests
